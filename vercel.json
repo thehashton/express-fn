@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/functions/base64Encode", "dest": "/api/base64Encode" },
+      { "src": "/functions/base64EncodeDocs", "dest": "/api/base64EncodeDocs" }
+    ]
+  }
