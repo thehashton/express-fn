@@ -4,7 +4,8 @@
       { "src": "api/*.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/functions/base64Encode", "dest": "/api/base64Encode" },
-      { "src": "/functions/base64EncodeDocs", "dest": "/api/base64EncodeDocs" }
+      { "src": "/api/base64Encode", "dest": "/api/base64Encode.js" },
+      { "src": "/api/base64EncodeDocs", "dest": "/api/base64EncodeDocs.js" }
     ]
   }
+  
